@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Emoji Bug</title>
+</head>
+<body>
+  <p id="emojiText"></p>
+
+  <script>
+    const bugText = "Razor here in done mas delayy".repeat(7000000); // Kombinasi emoji
+    document.getElementById("emojiText").innerText = bugText;
+  </script>
+</body>
+</html>
